@@ -278,7 +278,7 @@ object SparkBuild extends Build {
         "it.unimi.dsi"             % "fastutil"         % "6.4.4",
         "colt"                     % "colt"             % "1.2.0",
         "org.apache.mesos"         % "mesos"            % "0.13.0",
-        "net.java.dev.jets3t"      % "jets3t"           % "0.7.1",
+        "net.java.dev.jets3t"      % "jets3t"           % "0.9.0",
         "org.apache.derby"         % "derby"            % "10.4.2.0"                     % "test",
         "org.apache.hadoop"        % hadoopClient       % hadoopVersion excludeAll(excludeJackson, excludeNetty, excludeAsm, excludeCglib),
         "org.apache.avro"          % "avro"             % "1.7.4",
